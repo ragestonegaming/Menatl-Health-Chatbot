@@ -1,0 +1,24 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "hey", "sup", "what's up"],
+            "responses": ["Hi there!", "Hello!", "Hey!", "Hi! How can I assist you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "goodbye", "see you later", "bye bye"],
+            "responses": ["Goodbye!", "See you later!", "Take care!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you", "thx", "i appreciate it"],
+            "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what is your name", "who are you"],
+            "responses": ["I am Robo, your friendly assistant!", "My name is Robo!"]
+        }
+    ]
+}
